@@ -1,0 +1,15 @@
+header {
+    background-color: black;
+}
+
+.logoImage img {
+    border-radius: 50%;
+}
+
+.fast {
+    color: orange;
+}
+
+.hamburgerMenu {
+    color: white;
+}
