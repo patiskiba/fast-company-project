@@ -1,5 +1,6 @@
 header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.795);
+    
     
 }
 
@@ -30,6 +31,7 @@ header {
 }
 
 .videoButtonsRow {
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100vw;
 }
