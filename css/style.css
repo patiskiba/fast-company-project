@@ -6,7 +6,13 @@ header {
     border-radius: 50%;
 }
 
+.logoText h1 {
+    color: #dcdcdc;
+    font-weight: 400;
+}
+
 .fast {
     color: orange;
+    font-weight: 700;
 }
 
