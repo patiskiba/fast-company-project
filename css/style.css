@@ -1,5 +1,6 @@
 header {
     background-color: black;
+    
 }
 
 .logoImage img {
@@ -16,3 +17,19 @@ header {
     font-weight: 700;
 }
 
+.videoRow {
+    background-color: white;
+}
+
+.videoCol {
+    padding: 0px;
+}
+
+.surfingImg {
+    padding: 0px;
+}
+
+.videoButtonsRow {
+    top: 40%;
+    width: 100vw;
+}
