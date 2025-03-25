@@ -87,7 +87,20 @@ header {
 .formSectionRow {
     padding-left: 5%;
     padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid gray;
+    border-radius: 4px;
 }
 
+.formTitleRow {
+    
+    border-bottom: 2px solid gray;
+}
 
+.formSubmitRow button {
+    background-color: orange;
+    border-color: orange;
+    font-weight: 700;
+}
 

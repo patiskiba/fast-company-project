@@ -70,12 +70,12 @@
 
     <main>
         <!-- The whole form -->
-        <section class="row formSectionRow">
+        <section class="row formSectionRow gap-4">
 
             <!-- The parts of the form -->
-            <div class="formTitleRow col-12">
+            <div class="formTitleRow col-12 mt-3">
                 <h3>Schedule a meeting</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
 
             <div class="formPlaceRow col-12">
@@ -89,14 +89,42 @@
             </div>
 
             <div class="formDatesRow col-12 d-flex flex-row justify-content-between">
-                <div class="startDateCol col-6">
+                <div class="startDateCol col-6 pe-2">
                     <label for="startDate">Start date:</label>
                     <input id="startDate" class="form-control" type="date" />
                 </div>
-                <div class="endDateCol col-6">
+                <div class="endDateCol col-6 ps-2">
                     <label for="endDate">Start date:</label>
                     <input id="endDate" class="form-control" type="date" />
                 </div>
+            </div>
+
+
+            <div class="formTicketsRow col-12 d-flex flex-row">
+                <div class="ticketsAdultRow col-6 pe-2">
+                    <label for="ticketsAdult">Adults:</label>
+                    <select id="ticketsAdult" class="form-select" aria-label="Default select example">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                    </select>
+                </div>
+
+                <div class="ticketsChildRow col-6 ps-2">
+                    <label for="ticketsChild">Children:</label>
+                    <select id="ticketsChild" class="form-select" aria-label="Default select example">
+                        <option selected>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+
+            </div>    
+
+            <div class="formSubmitRow col-12 pt-4">
+                <button type="button" class="btn btn-primary col-12">Book now</button>
             </div>
 
         </section>
