@@ -68,5 +68,40 @@
 
     </header>
 
+    <main>
+        <!-- The whole form -->
+        <section class="row formSectionRow">
+
+            <!-- The parts of the form -->
+            <div class="formTitleRow col-12">
+                <h3>Schedule a meeting</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="formPlaceRow col-12">
+                <label for="servicePlace">Service place:</label>
+                <select id="servicePlace" class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+
+            <div class="formDatesRow col-12 d-flex flex-row justify-content-between">
+                <div class="startDateCol col-6">
+                    <label for="startDate">Start date:</label>
+                    <input id="startDate" class="form-control" type="date" />
+                </div>
+                <div class="endDateCol col-6">
+                    <label for="endDate">Start date:</label>
+                    <input id="endDate" class="form-control" type="date" />
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
 </body>
 </html>

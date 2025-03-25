@@ -84,3 +84,10 @@ header {
     transform: translateY(-50%);
 }
 
+.formSectionRow {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
