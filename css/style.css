@@ -104,3 +104,12 @@ header {
     font-weight: 700;
 }
 
+.fastCard {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fastCard p {
+    color: rgb(86 86 86);
+}
+
