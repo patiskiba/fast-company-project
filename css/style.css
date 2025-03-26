@@ -1,16 +1,18 @@
-.row {
-    /* margin-left: 0px!important;
-    margin-right: 0px!important */
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 body {
-    /* width: 100vw; */
-    /* padding: 0px!important; */
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
 }
 
 .headerRow {
     /* padding: 0px; */
-    width: 100%;
+    
+    max-width: 100%;
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.5px );
@@ -19,7 +21,8 @@ body {
 }
 
 header {
-    width: 100vw;
+    
+    max-width: 100%;
     
     padding: 0px!important;
     
@@ -43,12 +46,14 @@ header {
 
 .videoRow {
     background-color: white;
-    width: 100%;
+    
+    max-width: 100%;
     
 }
 
 .videoCol {
     padding: 0px;
+    
 }
 
 .surfingImg {
@@ -99,13 +104,15 @@ header {
 .downloadsRow {
     transform: translateY(-50%);
     width: 100vw;
+    max-width: 100%;
     margin-left: 0px!important;
     margin-right: 0px!important;
 }
 
 main {
     /* padding: 0px; */
-    
+    width: 100vw;
+    max-width: 100%;
 }
 
 .formSectionRow {
