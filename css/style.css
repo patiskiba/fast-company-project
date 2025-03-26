@@ -1,17 +1,15 @@
-.container-fluid {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
+
 
 body {
     width: 100vw;
     max-width: 100%;
     margin: 0;
+    
 }
 
 .headerRow {
     /* padding: 0px; */
-    
+    width: 100vw;
     max-width: 100%;
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -21,7 +19,7 @@ body {
 }
 
 header {
-    
+    width: 100vw;
     max-width: 100%;
     
     padding: 0px!important;
@@ -46,7 +44,7 @@ header {
 
 .videoRow {
     background-color: white;
-    
+    width: 100vw;
     max-width: 100%;
     
 }
@@ -63,7 +61,7 @@ header {
 .videoButtonsRow {
     top: 50%;
     transform: translateY(-50%);
-    width: 100vw;
+    width: 100%;
 }
 
 .parallelograms {
