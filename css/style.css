@@ -74,7 +74,7 @@ header {
     color: white;
     
 }
-.parallelogram1 span {
+.parallelogram1 span h2 {
     
     color: white;
     transform: skew(-20deg);
