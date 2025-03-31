@@ -143,6 +143,7 @@ main {
 }
 
 .portraitContainer {
+    position: relative;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -176,3 +177,10 @@ main {
 }
 
 
+
+.portraitText {
+    position: absolute;
+    top: 75%;
+    
+    
+}
