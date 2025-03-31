@@ -142,10 +142,37 @@ main {
     color: rgb(86 86 86);
 }
 
-.portrait {
+.portraitContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.portrait1 {
     width: 100%;
     padding-bottom: 100%;
     background-image: url('../images/fastportrait1.png');
     background-size: cover;
 }
+
+.portrait2 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../images/fastportrait2.png');
+    background-size: cover;
+}
+
+.portrait3 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../images/fastportrait3.png');
+    background-size: cover;
+}
+
+.portrait4 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../images/fastportrait4.png');
+    background-size: cover;
+}
+
 
